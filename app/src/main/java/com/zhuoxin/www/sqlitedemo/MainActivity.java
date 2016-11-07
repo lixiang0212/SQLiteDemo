@@ -83,6 +83,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 adapter = new MyAdapter(users,this);
                 listView.setAdapter(adapter);
                 break;
+            case R.id.update:
+                
+                break;
         }
     }
 }
