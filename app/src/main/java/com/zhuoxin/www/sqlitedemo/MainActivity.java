@@ -2,6 +2,7 @@ package com.zhuoxin.www.sqlitedemo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -84,7 +85,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 listView.setAdapter(adapter);
                 break;
             case R.id.update:
-                
+                Log.i("aaa","AAA");
                 break;
         }
     }
